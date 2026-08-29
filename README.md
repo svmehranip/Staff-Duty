@@ -1,2 +1,6 @@
-# StaffDuty v4
-Fixes invalid leave-date posting and date/name display. Owner can remove Pending and Approved leave. Replace GitHub files and replace Code.gs in Apps Script, then deploy a NEW Web App version. Keep the same URL if possible.
+StaffDuty v6 fixes:
+- Future-date validation uses YYYY-MM-DD strings only.
+- Owner can remove Pending or Approved leave from Home > Upcoming Leave.
+- Owner can remove Pending or Approved leave from Approval.
+- Backend must have removeLeave action (use the v5 DateFix Apps Script or newer).
+Replace GitHub files and deploy a new Apps Script version.
