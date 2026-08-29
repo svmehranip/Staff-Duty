@@ -1,8 +1,13 @@
-# StaffDuty GitHub Pages package
+# StaffDuty GitHub Ready v2
 
-1. Upload all files in this folder to the ROOT of a GitHub repository.
-2. In `app.js`, replace `PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE` with your deployed Google Apps Script Web App URL.
-3. GitHub: Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
-4. Open the resulting HTTPS GitHub Pages address on Android Chrome and choose Install app/Add to Home screen.
+This version caches cloud data locally for faster navigation and adds button press animations, active navigation highlighting, animated cards, an animated leave switch, success/error feedback, calendar highlights and a refresh button.
 
-Do not upload Google passwords, service-account private keys, or other secrets.
+Upload these files to the ROOT of your GitHub repository.
+
+Before publishing, open `app.js` and replace `PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE` with your deployed Google Apps Script Web App URL.
+
+Then GitHub → Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+
+Open the resulting HTTPS address on Android Chrome and choose Install app/Add to Home screen.
+
+Do not upload passwords, service-account private keys, or other secrets.
