@@ -1,13 +1,14 @@
-# StaffDuty GitHub Ready v2
+# StaffDuty GitHub Ready v3
 
-This version caches cloud data locally for faster navigation and adds button press animations, active navigation highlighting, animated cards, an animated leave switch, success/error feedback, calendar highlights and a refresh button.
+Changes:
+- Per-user Change Password/PIN screen under **More**.
+- Strong visible button press animation using pointer/touch events.
+- Existing local caching and background sync retained.
 
-Upload these files to the ROOT of your GitHub repository.
+Upload all files to the ROOT of the GitHub repository.
 
 Before publishing, open `app.js` and replace `PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE` with your deployed Google Apps Script Web App URL.
 
-Then GitHub → Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
-
-Open the resulting HTTPS address on Android Chrome and choose Install app/Add to Home screen.
+IMPORTANT: the Change Password screen requires the Google Apps Script backend to implement the `changePassword` action. If the current backend does not support that action, the UI will show an error until the backend is updated.
 
 Do not upload passwords, service-account private keys, or other secrets.
