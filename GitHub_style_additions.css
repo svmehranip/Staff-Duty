@@ -1,0 +1,5 @@
+.summary{width:100%;border-collapse:collapse;font-size:12px;margin-top:12px}
+.summary th,.summary td{border:1px solid #e1e6ef;padding:8px;text-align:center}
+.summary th:first-child,.summary td:first-child{text-align:left}
+#nav{padding-bottom:env(safe-area-inset-bottom,0px);height:calc(70px + env(safe-area-inset-bottom,0px))}
+body{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
